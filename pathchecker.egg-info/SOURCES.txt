@@ -1,0 +1,12 @@
+LICENSE-APACHE
+LICENSE-MIT
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+pathchecker/__init__.py
+pathchecker/pathcecker.py
+pathchecker.egg-info/PKG-INFO
+pathchecker.egg-info/SOURCES.txt
+pathchecker.egg-info/dependency_links.txt
+pathchecker.egg-info/top_level.txt
