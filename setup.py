@@ -23,13 +23,13 @@ REQUIRES = []
 kwargs = {
     'name': 'pathchecker',
     'version': version,
-    'description': 'checks exitence of path entries',
+    'description': '',
     'long_description': readme,
-    'author': 'J. Jagusch',
-    'author_email': 'jaguschj@gmx.net',
-    'maintainer': 'J. Jagusch',
-    'maintainer_email': 'jaguschj@gmx.net',
-    'url': 'https://github.com/jaguschj/pathchecker',
+    'author': 'JJ',
+    'author_email': 'me@un.known',
+    'maintainer': 'JJ',
+    'maintainer_email': 'me@un.known',
+    'url': 'https://github.com/pathchecker',
     'license': 'MIT/Apache-2.0',
     'classifiers': [
         'Development Status :: 4 - Beta',
@@ -46,7 +46,7 @@ kwargs = {
     ],
     'install_requires': REQUIRES,
     'tests_require': ['coverage', 'pytest'],
-    'packages': find_packages(exclude=('tests', 'tests.*')),
+    'packages': find_packages(where='src',exclude=('tests', 'tests.*')),
 
 }
 
