@@ -2,7 +2,7 @@ Metadata-Version: 1.2
 Name: pathchecker
 Version: 0.0.1
 Summary: UNKNOWN
-Home-page: https://github.com/_/pathchecker
+Home-page: https://github.com/pathchecker
 Author: JJ
 Author-email: me@un.known
 Maintainer: JJ
@@ -45,5 +45,3 @@ Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python :: 2.7
 Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
-Classifier: Programming Language :: Python :: Implementation :: CPython
-Classifier: Programming Language :: Python :: Implementation :: PyPy
