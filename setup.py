@@ -44,7 +44,7 @@ kwargs = {
     ],
     'install_requires': REQUIRES,
     'tests_require': ['coverage', 'pytest'],
-    'packages': find_packages(include=['pathchecker','pathchecker.*'],
+    'packages': find_packages(include=['pathchecker'],#,'pathchecker.*'],
                               exclude=('tests', 'tests.*')),
 
 }
